@@ -39,27 +39,32 @@ body {
 -------------------------------------------------- */
 
 /* Carousel base class */
-.carousel {
+.header {
   height: 500px;
   margin-bottom: 60px;
+  text-align: center;
 }
 /* Since positioning the image, we need to help out the caption */
-.carousel-caption {
+.header-caption {
   z-index: 10;
+  margin-top: 5em;
 }
 
 /* Declare heights because of positioning of img element */
-.carousel .item {
+.header .item {
   height: 500px;
   background-color: black;
 }
-.carousel-inner > .item > img {
+.header-inner > .item > img {
   min-width: 25em;
   height: 500px;
   margin: auto;
   border-radius: 2em;
   vertical-align: middle;
   margin-top: 3.5em;
+  border: 15px solid #FFF;
+  margin-bottom: -2em;
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
 
@@ -67,6 +72,9 @@ body {
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
+#project {
+  margin-top: 15em;
+}
 .marketing .col-lg-4 {
   margin-bottom: 20px;
   text-align: center;
@@ -98,6 +106,12 @@ body {
   /*width: 200px;*/
   height: 165px;
   margin: auto;
+  margin-bottom: 1em;
+}
+
+#about_me img {
+  border-radius: 2em;
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
 
