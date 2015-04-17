@@ -112,12 +112,33 @@ body {
   margin-bottom: 1em;
 }
 
+/*About Me Section*/
 #about_me img {
   border-radius: 2em;
   box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
+blockquote {
+  padding-bottom: 2em;
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75)
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+}
 
+cite {
+  float: right;
+  font-size: .75em;
+  margin-top: 2em;
+  margin-right: 3em;
+}
+
+.info{
+  display: none;
+}
+
+.active {
+  display: block;
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
