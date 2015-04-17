@@ -5,7 +5,7 @@ $('.nav_btn').each(function(index) {
     $('.nav_btn.selected').removeClass('selected')
     $(this).addClass('selected');
     $('.active').removeClass('active');
-    var info = $('.info').eq(index);
+    var info = $('.about.info').eq(index);
     info.toggleClass('active');
   });
 });
@@ -15,7 +15,7 @@ $('.clin_btn').each(function(index) {
     $('.clin_btn.selected').removeClass('selected')
     $(this).addClass('selected');
     $('.clin.info.active').removeClass('active');
-    var clin_info = $('.clin.info').eq(index);
-    clin_info.toggleClass('active');
+    var info = $('.clin.info').eq(index);
+    info.toggleClass('active');
   });
 });
