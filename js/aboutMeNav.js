@@ -4,7 +4,7 @@ $('.nav_btn').each(function(index) {
   $(this).on('click', function(){
     $('.nav_btn.selected').removeClass('selected')
     $(this).addClass('selected');
-    $('.active').removeClass('active');
+    $('.about.info.active').removeClass('active');
     var info = $('.about.info').eq(index);
     info.toggleClass('active');
   });
