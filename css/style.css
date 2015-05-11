@@ -89,6 +89,8 @@ body {
 .img-square{
   border: 3px solid #E6E6E6;
   box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  width: 140px; 
+  height: 140px;
 }
 /* Featurettes
 ------------------------- */
