@@ -41,22 +41,28 @@
         </nav>
       </div>
     </div>
-    <!-- Picture
-    ================================================== -->
+
     <div id="myPicture" class="header slide">
       <div class="header-inner">
-        <div class="item active">
-          <img src="images/sung.jpg" title="Sung Kim" /> 
-          <div class="container">
-            <div class="header-caption">
+        <div class="item">
+          <img class='img-responsive' src="images/sung.jpg" title="Sung Kim" /> 
+          <!-- <div class="container"> -->
+<!--             <div class="header-caption">
               <h1>Sunggyun Kim</h1>
               <p>Full Stack Web Developer & Data Scientist</p>
-            </div>
-          </div>
+            </div> -->
+          <!-- </div> -->
+        </div>
         </div>
       </div>
     </div>
 
+    <div class='container'>
+      <div class="header-caption">
+        <h1>Sunggyun Kim</h1>
+        <p>Full Stack Web Developer & Data Scientist</p>
+      </div>
+    </div>
     <!-- Wrap the rest of the page in another container to center all the content. -->
    
 
@@ -69,21 +75,21 @@
       </div>
 
       <div class="row project info active">
-        <div class="col-lg-4">
+        <div class="col-md-4 col-lg-4">
           <img class="img-square" src="images/CodeHax.png" alt="CodeHax">
           <h2>Code Hax</h2>
           <p>Code Hax is my blog where I have been writing down code examples in different languages so I can learn new code patterns. It also serves as a reference for coders whether it is their first programming language or they are trying to learn a new one. I have posts on Ruby, Python with plans to write some about Javascript, CSS, and JS Frameworks.</p>
           <p><a class="btn btn-default" href="http://www.codehax.com" role="button" target="_blank">Check it out! &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         
-        <div class="col-lg-4">
+        <div class="col-md-4 col-lg-4">
           <img class="img-square" src="images/twittervibe.png" alt="twittervibe">
           <h2>Twitter Vibe</h2>
           <p>A Rails app where users sign in with Twitter and generate a Twitter vibe chart. The app runs the user's tweets through a sentiment analysis algorithm and graphs the results on an area chart.</p>
           <p><a class="btn btn-default" href="http://www.twittervibe.com/" role="button" target="_blank">Check it out! &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
 
-        <div class="col-lg-4">
+        <div class="col-md-4 col-lg-4">
           <img class="img-square" src="images/twitterburst.png" alt="Twitter Burst">
           <h2>Twitter Burst</h2>
           <p>A Rails and Node app that creates a stream connection to twitter and queries for a hashtag. Play against the computer to get most hits on your hashtag in 30 seconds</p>
@@ -91,7 +97,7 @@
         </div>
       </div>
 
-      <div class='row project info'>        
+      <div class='row project info vis_hidden hidden'>        
         <div class="col-lg-4">
         </div>
         <div class="col-lg-4">
@@ -128,6 +134,7 @@
            
            <p> <blockquote>
             "Real knowledge is to know the extent of one's ignorance."
+            <br>
             <cite> - Confucious </cite>
             </blockquote> 
            </p>
@@ -142,7 +149,7 @@
            <p> <span class="head">Weapons of Choice:</span> Python, JavaScript, Ruby </p>
           </div>
 
-          <div class="about info">
+          <div class="about info vis_hidden hidden">
           <span class="head">University of Richmond </span>
             <p> I am graduate of the University of Richmond where I did a interdisciplinary major in Psychology, Economics and Philosophy with a minor in French.</p>
 
@@ -158,7 +165,7 @@
             </p>
           </div>
 
-          <div class="about info">
+          <div class="about info vis_hidden hidden">
             <span class="head"> Wediko Children's Services</span>
             <p>For two summers, I worked as a clinician at a intensive residential treatment facility for socially and emotionally disturbed children. I have over 1500 supervised clinical hours administering various therapeutic techniques including cognitive behavioral, positive behavior support, and crisis intervention. 
             </p>
@@ -168,7 +175,7 @@
               <button type="button" class="clin_btn btn btn-default head">Group Dynamics Research</button>
             </div>
 
-            <div class='clin info'>
+            <div class='clin info vis_hidden hidden'>
               <p>During my second summer, I sought to optimize the token economy used to encourage pro-social behavior. I wanted to see if any particular positive behaviors were encouraged more readily, if interpersonal relations between staff and patients effected reward frequency/amount and if there was any correlation between the thrice daily behavioral inventories scores and token acquisition.</p>
 
               <p>As I was unable to control the total supply of tokens nor token distribution from staff outside of my clinical group, it became clear that I would have to control for inflation. I opted to use an auction to distribute goods starting with the least desirable goods and a closed bid auction for the most desirable goods. This way, patients with the fewest tokens were still able to get something and I was able to remove a large supply of tokens from the economy by encouraging maximum bids for highly desirable items.
@@ -176,7 +183,7 @@
 
               <p>While I was able to effectively manipulate the economy and keep inflation under control, I did not have enough time to take the data and come up with answers to my questions. I hope to one day be able to go back and finish this research.</p>
             </div>
-            <div class='clin info'>
+            <div class='clin info vis_hidden hidden'>
               <p>During my second summer, I worked as a research liaison with the research team. The tests I administered on my patients were designed to gauge interpersonal relationships between individual patients. This research gave us valuable information that allowed us to tailor individuals treatments, understand certain behavioral patterns and help foster a positive group dynamic.
               </p>
             </div>
@@ -184,7 +191,7 @@
             </p>
           </div>
 
-          <div class="about info">
+          <div class="about info vis_hidden hidden">
             <span class="head">Full Stack Web Development</span>
             <p>
               I am primarily a Ruby on Rails developer with some experience using javascript frameworks like Backbone, Angular, Bootstrap. Apps I have created were deployed thru Heroku and have a PostgreSQL database. 
@@ -198,7 +205,7 @@
             </p>
           </div>
 
-          <div class="about info">
+          <div class="about info vis_hidden hidden">
             <span class="head"> I am a Maker</span>
             <p> I really enjoy making things. I have made my own furniture, jackets, suits, back bags, cups, bowls, plates, beer, wine and baguettes. I am a total foodie and enjoy scotch/bourbon.
             </p>
@@ -211,7 +218,7 @@
             </p>
           </div>
 
-          <div class="about info">
+          <div class="about info vis_hidden hidden">
             <span class="head">Code For DC</span>
             <p> 
             Currently I am working on a project at Code for DC where we try to match DC Campaign contributions to government contracts.
@@ -221,16 +228,13 @@
             <p> I have also worked with Junior Achievement in DC to teach financial literacy to primary school students.
             </p>
           </div>
-
-           <a href="images/April 16th 2015.pdf" target="_blank"><button class="btn-lg btn-primary">Resume</button></a> 
-
-
         </div>
-        <div class="col-md-5" id="about_me">
-          <img class="featurette-image img-responsive" src="images/papercrane.jpg" alt="Paper Crane">
+        
+        <div class="col-md-5">
+          <img id="about_me_img" class="featurette-image img-responsive" src="images/papercrane.jpg" alt="Paper Crane">
         </div>
       </div>
-
+      <a href="images/April 16th 2015.pdf" target="_blank"><button class="btn-lg btn-primary">Resume</button></a> 
     <!--   <hr class="featurette-divider" id="my_tools"> -->
 
 <!--        <div class="row">
@@ -248,19 +252,19 @@
         <h3 class ='text-muted'> Feel free to reach out!</h3>
 
       <div class="row featurette">
-        <div class="col-md-3">
+        <div class="col-sm-6 col-md-3">
           <a href="https://twitter.com/Quant_LIfe" target="_blank"><img class="featurette-image img-responsive image-size" src="images/twitter.png" alt="twitter"></a>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-sm-6 col-md-3">
           <a href="https://www.linkedin.com/in/sk187" target="_blank"><img class="featurette-image img-responsive image-size" src="images/linkedin.png" alt="Linkedin"></a>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-sm-6 col-md-3">
           <a href="mailto:sunggyun187@gmail.com"><img class="featurette-image img-responsive image-size" src="images/gmail.png" alt="email"></a>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-sm-6 col-md-3">
           <a href="https://github.com/sk187" target="_blank"><img class="featurette-image img-responsive image-size" src="images/github.png" alt="github"></a>
         </div>
       </div>
@@ -279,7 +283,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <script src="js/googleAnalytics.js"></script>
-    <script src="js/aboutMeNav.js"></script>
-    <script src="js/projectsNav.js"></script>
+    <script src="js/barNav.js"></script>
   </body>
 </html>
