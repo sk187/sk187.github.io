@@ -172,11 +172,11 @@ cite {
 
 .vis_hidden {
   opacity: 0;  
-  -webkit-transition: all, 0.01s linear;
-  -moz-transition: all, 0.01s linear;
-  -o-transition: all, 0.01s linear;
-  -ms-transition: all, 0.01s linear;
-  transition: all, 0.01s linear;
+  -webkit-transition: opacity, 1s linear .3s;
+  -moz-transition: opacity, 1s linear .3s;
+  -o-transition: opacity, 1s linear .3s;
+  -ms-transition: opacity, 1s linear .3s;
+  transition: opacity, 1s linear .3s;
 }
 
 .active{

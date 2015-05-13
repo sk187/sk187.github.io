@@ -23,11 +23,11 @@ $('.project_btn').each(function(index) {
     }
     //Closes active tab
     else{
-        // tab.addClass('vis_hidden');
-        // tab.removeClass('active');
-        // tab.one('transitionend',function(event){
-        //     tab.addClass('hidden');
-        // });
+        tab.addClass('vis_hidden');
+        tab.removeClass('active');
+        tab.one('transitionend',function(event){
+            tab.addClass('hidden');
+        });
     }
   });
 });
@@ -38,9 +38,6 @@ $('.nav_btn').each(function(index) {
     $('.nav_btn').not(this).removeClass('selected')
     var tab = ($('.about.info').eq(index))
     var otherTabs = ($('.about.info').not(tab))
-    // console.log(tab)
-    // console.log(otherTabs)
-    // console.log(index)
 
     if (otherTabs.hasClass('active')){
         otherTabs.removeClass('active');
@@ -59,11 +56,11 @@ $('.nav_btn').each(function(index) {
     }
     //Closes active tab
     else{
-        // tab.addClass('vis_hidden');
-        // tab.removeClass('active');
-        // tab.one('transitionend',function(event){
-        //     tab.addClass('hidden');
-        // });
+        tab.addClass('vis_hidden');
+        tab.removeClass('active');
+        tab.one('transitionend',function(event){
+            tab.addClass('hidden');
+        });
     }
   });
 });
@@ -75,9 +72,6 @@ $('.clin_btn').each(function(index) {
     $('.clin_btn').not(this).removeClass('selected')
     var tab = ($('.clin.info').eq(index))
     var otherTabs = ($('.clin.info').not(tab))
-    // console.log(tab)
-    // console.log(otherTabs)
-    // console.log(index)
 
     if (otherTabs.hasClass('active')){
         otherTabs.removeClass('active');
@@ -96,11 +90,11 @@ $('.clin_btn').each(function(index) {
     }
     //Closes active tab
     else{
-        // tab.addClass('vis_hidden');
-        // tab.removeClass('active');
-        // tab.one('transitionend',function(event){
-        //     tab.addClass('hidden');
-        // });
+        tab.addClass('vis_hidden');
+        tab.removeClass('active');
+        tab.one('transitionend',function(event){
+            tab.addClass('hidden');
+        });
     }
   });
 });
