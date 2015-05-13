@@ -148,7 +148,7 @@ cite {
   height: auto;
   padding: 0 8px;
   overflow: hidden;
-  display: inline-block;
+  display: block;
 
   
   border: 1px solid #EEEEEE;
